@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.flex {
+  display: flex;
+
+}
+.container {
+  padding: 100px;
+  min-height: 100vh;
+  justify-content: center;
+  background: white;
+}
+.facebook-page {
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+}
+.facebook-page .text {
+  margin-bottom: 90px;
+}
+.facebook-page h1 {
+  color: #1e78ee;
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+.facebook-page p {
+  font-size: 30px;
+}
+form {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 2px 2px 2px 2px black;
+  max-width: 4000px;
+  width: 100%;
+}
+form input {
+  height: 70px;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  padding: 0 14px;
+}
+form input:focus {
+  outline: none;
+  border-color: #1e78ee;
+}
+::placeholder {
+  color: grey;
+  font-size: 20px;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+.link .login {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #1e78ee;
+  padding: 20px 0;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.link .login:hover {
+  background: #1e78ee;
+}
+ .link .forgot {    
+  color: #1e78ee;
+  font-size: 20px;
+}
+.link .forgot:hover {
+  text-decoration: underline;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.button {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.button a {
+  padding: 15px 20px;
+  background: limegreen;
+  border-radius: 6px;
+  color: white;
+  font-size: 1.063rem;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.button a:hover {
+  background: limegreen;
+}
